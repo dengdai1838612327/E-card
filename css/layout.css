@@ -34,3 +34,133 @@
 .more-box a:last-child{
   border-bottom: none;
 }
+.list-box{
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.list-box.fff{
+  background-color: #fff;
+}
+.list-box .box-tit{
+  overflow: hidden;
+  padding: 0 15px;
+  font-size: 14px;
+  line-height: 45px;
+}
+.list-box .box-tit span{
+  float: left;
+}
+.list-box .box-tit a{
+  float: right;
+  color: #666;
+  position: relative;
+  padding-right: 10px;
+}
+.list-box .box-tit a:after{
+  border: #666 solid 1px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -6px;
+  display: block;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg)
+}
+.list-box .swiper-container{
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+.list-box .card-sub{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0,0,0,.5);
+}
+.list-box .card-text{
+  border-top: 1px solid #ddd;
+}
+.list-box .card-text textarea{
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 130px;
+  min-height: 130px;
+  font-size: 14px;
+  padding: 15px;
+}
+.list-box .card-text .word{
+  display: block;
+  text-align: right;
+  padding: 0 15px;
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 10px;
+}
+.list-box .card-text .word i{
+  color: #333;
+}
+.list-box .num-box{
+  border-bottom: 1px solid #ddd;
+  padding-left: 15px;
+}
+.num-box p{
+  overflow: hidden;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+}
+.num-box p label{
+  float: left;
+  width: 12%;
+  color: #666;
+  font-size: 15px;
+}
+.num-box p label.wp20{
+  width: 20%;
+}
+.num-box p input{
+  float: right;
+  width: 88%;
+  height: 45px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+.num-box p input.bd-n{
+  border-bottom: none;
+}
+.num-box .num-tag{
+  float: right;
+  width: 80%;
+  height: 45px;
+  font-size: 0;
+}
+.num-box .num-tag a{
+  display: inline-block;
+  width: 70px;
+  height: 27px;
+  line-height: 25px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-right: 10px;
+  color: #aaa;
+  font-size: 14px;
+  text-align: center;
+}
+.num-box .num-tag a.on{
+  border-color: #333;
+  color: #333;
+}
+.num-box .num{
+  position: absolute;
+  right: 10px;
+  color: #999;
+  font-size: 14px;
+}

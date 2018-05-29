@@ -21,6 +21,56 @@
   </header>
 </div>
 <div class="content" style="padding:45px 0 0;">
+  <div class="list-box">
+    <p class="box-tit"><span>贺卡主题</span><a href="###">更多</a></p>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/card-img.png"><i class="card-sub">圣诞快乐</i></div>
+        <div class="swiper-slide"><img src="images/card-img.png"><i class="card-sub">圣诞快乐</i></div>
+        <div class="swiper-slide"><img src="images/card-img.png"><i class="card-sub">圣诞快乐</i></div>
+        <div class="swiper-slide"><img src="images/card-img.png"><i class="card-sub">圣诞快乐</i></div>
+        <div class="swiper-slide"><img src="images/card-img.png"><i class="card-sub">圣诞快乐</i></div>
+        <div class="swiper-slide"><img src="images/card-img.png"><i class="card-sub">圣诞快乐</i></div>
+        <div class="swiper-slide"><img src="images/card-img.png"><i class="card-sub">圣诞快乐</i></div>
+        <div class="swiper-slide"><img src="images/card-img.png"><i class="card-sub">圣诞快乐</i></div>
+        <div class="swiper-slide"><img src="images/card-img.png"><i class="card-sub">圣诞快乐</i></div>
+        <div class="swiper-slide"><img src="images/card-img.png"><i class="card-sub">圣诞快乐</i></div>
+      </div>
+    </div>
+  </div>
+  <div class="list-box fff">
+    <p class="box-tit"><span>祝福语</span></p>
+    <div class="card-text">
+      <textarea placeholder="恭喜发财，万事如意！"></textarea>
+      <span class="word"><i>100</i>/100</span>
+    </div>
+  </div>
+  <div class="list-box fff">
+    <p class="box-tit"><span>单个金额</span></p>
+    <div class="num-box">
+      <p>
+        <label>￥</label>
+        <input type="text" placeholder="建议转入5元以上金额">
+      </p>
+      <p>
+        <label class="wp20">目标人数</label>
+        <span class="num-tag">
+          <a class="on" href="###">赠送多人</a>
+          <a href="###">赠送单人</a>
+        </span>
+      </p>
+    </div>
+    <div class="num-box">
+      <p>
+        <label>个数</label>
+        <input type="text">
+        <i class="num">/个</i>
+      </p>
+      <p>
+        <input class="bd-n" type="text" placeholder="每人领取固定金额">
+      </p>
+    </div>
+  </div>
   <div class="card-btn">
     <button>制作贺卡</button>
   </div>
@@ -30,7 +80,12 @@
   <a href="###">贺卡说明</a>
 </div>
 <script src="js/jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
 <script>
+var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 'auto',
+  spaceBetween: 10
+});
 function a_more(){
   $(".more-box").show();
 };
