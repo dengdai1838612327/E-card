@@ -93,8 +93,101 @@
     </li>
   </ul>
   <div class="card-btn btmfixed">
-    <button>提交</button>
+    <!-- <button onclick="return modal_single();">提交</button> -->
+    <button onclick="return modal_group();">提交</button>
   </div>
 </div>
+<div id="bg-gray"></div>
+<div class="detail-modal modal-single">
+  <i class="close"></i>
+  <p class="detail-m-tit">专属贺卡</p>
+  <div class="detail-box single-box">
+    <p class="bold">3413&nbsp;1293&nbsp;3442&nbsp;9773</p>
+    <p>135 2345 1234 已领取</p>
+  </div>
+</div>
+<div class="detail-modal modal-group">
+  <i class="close"></i>
+  <p class="detail-m-tit">专属贺卡</p>
+  <div class="detail-box group-box">
+    <p class="group-tit">领取状态</p>
+    <ul class="group-list">
+      <li>
+        <p class="fl">3413&nbsp;1293&nbsp;3442&nbsp;9773</p>
+        <p class="fr">
+          <span>已领取</span>
+          <span class="bot">135 2345 1234</span>
+        </p>
+      </li>
+      <li>
+        <p class="fl">3413&nbsp;1293&nbsp;3442&nbsp;9773</p>
+        <p class="fr">
+          <span>已领取</span>
+          <span class="bot">135 2345 1234</span>
+        </p>
+      </li>
+      <li>
+        <p class="fl">3413&nbsp;1293&nbsp;3442&nbsp;9773</p>
+        <p class="fr">
+          <span>已领取</span>
+          <span class="bot">135 2345 1234</span>
+        </p>
+      </li>
+      <li>
+        <p class="fl">3413&nbsp;1293&nbsp;3442&nbsp;9773</p>
+        <p class="fr">
+          <span>已领取</span>
+          <span class="bot">135 2345 1234</span>
+        </p>
+      </li>
+      <li>
+        <p class="fl">3413&nbsp;1293&nbsp;3442&nbsp;9773</p>
+        <p class="fr">
+          <span>已领取</span>
+          <span class="bot">135 2345 1234</span>
+        </p>
+      </li>
+      <li>
+        <p class="fl">3413&nbsp;1293&nbsp;3442&nbsp;9773</p>
+        <p class="fr">
+          <span>已领取</span>
+          <span class="bot">135 2345 1234</span>
+        </p>
+      </li>
+      <li>
+        <p class="fl">3413&nbsp;1293&nbsp;3442&nbsp;9773</p>
+        <p class="fr">
+          <span>已领取</span>
+          <span class="bot">135 2345 1234</span>
+        </p>
+      </li>
+      <li>
+        <p class="fl">3413&nbsp;1293&nbsp;3442&nbsp;9773</p>
+        <p class="fr">
+          <span>未领取</span>
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script>
+function modal_single(){
+  var bggray = $("#bg-gray");
+  var modal = $(".modal-single");
+  bggray.css("width",window.screen.width);
+  bggray.css("height",window.screen.height);
+  bggray.show();
+  modal.show();
+};
+function modal_group(){
+  var bggray = $("#bg-gray");
+  var modal = $(".modal-group");
+  bggray.css("width",window.screen.width);
+  bggray.css("height",window.screen.height);
+  bggray.show();
+  modal.show();
+};
+</script>
 </body>
 </html>
