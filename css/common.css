@@ -102,6 +102,13 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
   width: 100%;
   z-index: 8
 }
+.btmfixed {
+  left: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 8
+}
 .header {
   background: #ec5951;
   padding: 0 10px;
@@ -239,4 +246,15 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
   height: 100%;
   line-height: 1;
   display: block;
+}
+#bg-gray {
+  background-color: #333;
+  display: none;
+  left: 0;
+  opacity: .7;
+  filter: alpha(opacity=70);
+  -moz-opacity: .7;
+  position: fixed;
+  top: 0;
+  z-index: 200
 }

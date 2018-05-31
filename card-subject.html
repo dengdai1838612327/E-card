@@ -31,7 +31,7 @@
   </div>
   <div class="subject-list">
     <ul>
-      <li>
+      <li onclick="return subject();">
         <img src="images/card-img.png">
         <span>新年快乐</span>
       </li>
@@ -62,10 +62,25 @@
     </ul>
   </div>
 </div>
+<div id="bg-gray"></div>
+<div class="subject-modal">
+  <i class="modal-top"></i>
+  <p class="subject-tit">圣诞快乐</p>
+  <div class="subject-img"><img src="images/card-img.png"></div>
+  <div class="subject-btn">
+    <input class="gray" type="button" value="关闭">
+    <input class="red" type="button" value="使用">
+  </div>
+</div>
 <script src="js/jquery.min.js"></script>
 <script>
-function a_more(){
-  $(".more-box").show();
+function subject(){
+  var bggray = $("#bg-gray");
+  var subject_modal = $(".subject-modal");
+  bggray.css("width",window.screen.width);
+  bggray.css("height",window.screen.height);
+  bggray.show();
+  subject_modal.show();
 };
 </script>
 </body>
