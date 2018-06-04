@@ -510,3 +510,172 @@
 .group-list li .fr span.bot{
   color: #999;
 }
+/*微信端*/
+.wx-top-bg{
+  background: url(../images/wx-top-bg.png) 0 0 no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 290px;
+}
+.wx-top-bg img{
+  display: block;
+  margin: 60px auto 50px;
+}
+.wx-top-bg a{
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+.wx-top-bg input{
+  background: url(../images/wx-btn.png) 0 0 no-repeat;
+  background-size: 165px 37px;
+  width: 165px;
+  height: 37px;
+  display: block;
+  margin: 10px auto;
+  font-size: 14px;
+  color: #692b01;
+}
+.wx-card-top{
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: -20px;
+  z-index: -1;
+}
+.wx-card{
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  top: -65px;
+  z-index: -2;
+  overflow: hidden;
+}
+.wx-card img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.wx-card .wx-card-tag{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 15px;
+  color: #fff;
+  font-size: 15px;
+  background-color: rgba(0,0,0,.5);
+  overflow: hidden;
+  overflow-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wx-top-bg img.m30{
+  margin: 30px auto;
+}
+.lingqu-info{
+  position: relative;
+  color: #fc0;
+  font-size: 20px;
+}
+.lingqu-info .info-box{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -116px;
+  width: 232px;
+  height: 112px;
+}
+.lingqu-info .friend{
+  position: absolute;
+  top: 33px;
+  left: 5px;
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  overflow: hidden;
+  overflow-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.lingqu-info .num{
+  position: absolute;
+  bottom: 22px;
+  left: 60px;
+  width: 50px;
+  text-align: center;
+}
+.wx-top-bg img.wx-new-bag{
+  width: 107px;
+  height: 57px;
+  position: absolute;
+  right: 0;
+  top: 160px;
+  margin: 0;
+}
+.wx-new-form{
+  width: 90%;
+  margin: 10px auto;
+}
+.wx-new-form li{
+  overflow: hidden;
+  line-height: 40px;
+  margin-bottom: 5px;
+}
+.wx-new-form li label{
+  float: left;
+  width: 20%;
+  text-align: right;
+  margin-right: 5%;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.wx-new-form li .form-r{
+  float: right;
+  width: 75%;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 5px;
+  position: relative;
+}
+.wx-new-form .form-r input{
+  width: 160px;
+  height: 40px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.wx-new-form .form-r .close{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -9px;
+  width: 15px;
+  height: 15px;
+  background: url(../images/close-gray.png) 0 0 no-repeat;
+  background-size: 15px 15px;
+}
+.wx-new-form .form-r .close.r100{
+  right: 100px;
+}
+.wx-new-form .form-r .yzm-btn{
+  width: 73px;
+  font-size: 14px;
+  text-align: center;
+}
+.wx-new-form .form-link{
+  clear: both;
+  margin-left: 25%;
+  display: block;
+  color: #854b01;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.wx-new-form .form-r img{
+  vertical-align: middle;
+}
