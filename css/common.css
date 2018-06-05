@@ -102,13 +102,6 @@ address, h1, h2, h3, h4, h5, h6, i, li, span {
   width: 100%;
   z-index: 8
 }
-.btmfixed {
-  left: 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  z-index: 8
-}
 .header {
   background: #ec5951;
   padding: 0 10px;
