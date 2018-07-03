@@ -12,7 +12,7 @@
 <meta name="format-detection" content="telephone=no" />
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=0">
 </head>
-<body>
+<body class="fff">
 <div class="topfixed">
   <header class="header">
     <a href="###" class="a-back"></a>
@@ -38,45 +38,48 @@
       </div>
     </div>
   </div>
-  <div class="list-box fff">
-    <p class="box-tit"><span>祝福语</span></p>
-    <div class="card-text">
-      <textarea placeholder="恭喜发财，万事如意！"></textarea>
-      <span class="word"><i>100</i>/100</span>
-    </div>
-  </div>
-  <div class="list-box fff">
-    <p class="box-tit"><span>单个金额</span></p>
+  <div class="list-box">
     <div class="num-box">
       <p>
-        <label>￥</label>
-        <input type="text" placeholder="建议转入5元以上金额">
+        <label>单份金额</label>
+        <input type="text" placeholder="建议单个金额5元以上">
+        <i class="num">元</i>
       </p>
-      <p>
-        <label class="wp20">目标人数</label>
+      <p class="bd_n">
+        <label>赠送人数：</label>
         <span class="num-tag">
-          <a class="on" href="###">赠送多人</a>
-          <a href="###">赠送单人</a>
+          <a href="###">单人</a>
+          <a class="on" href="###">多人</a>
+          <em>每人领取固定金额</em>
         </span>
       </p>
-    </div>
-    <div class="num-box">
       <p>
         <label>个数</label>
-        <input type="text">
-        <i class="num">/个</i>
-      </p>
-      <p>
-        <input class="bd-n" type="text" placeholder="每人领取固定金额">
+        <input type="text" placeholder="填写个数">
+        <i class="num">个</i>
       </p>
     </div>
   </div>
-  <div class="card-btn">
-    <button>制作贺卡</button>
+  <div class="list-box">
+    <div class="card-text">
+      <textarea placeholder="祝福语：恭喜发财，万事如意！"></textarea>
+    </div>
   </div>
+  <div class="list-box">
+    <p class="bag-num">
+      <em>￥</em>
+      <span>0.00</span>
+    </p>
+  </div>
+  <div class="card-btn">
+    <!-- <button>制作贺卡</button> -->
+    <button class="nor">制作贺卡</button>
+  </div>
+  <p class="gray-tips">第二日的24时前未被领取，贺卡礼金被退回</p>
 </div>
 <div class="more-box">
   <a href="###">贺卡明细</a>
+  <a href="###">礼金余额</a>
   <a href="###">贺卡说明</a>
 </div>
 <script src="js/jquery.min.js"></script>

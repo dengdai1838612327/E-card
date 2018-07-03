@@ -30,7 +30,7 @@
 	color: #fccc74;
 	text-align: center;
 	font-size: 14px;
-	padding: 10px 0;
+	padding: 7px 0;
 }
 .more-box a:last-child{
 	border-bottom: none;
@@ -84,65 +84,64 @@
   border-radius: 0 0 5px 5px;
 }
 .list-box .card-text{
-	border-top: 1px solid #ddd;
+  margin: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #ccc;
 }
 .list-box .card-text textarea{
-	max-width: 100%;
-	min-width: 100%;
-	max-height: 130px;
-	min-height: 130px;
-	font-size: 14px;
-	padding: 15px;
-}
-.list-box .card-text .word{
-	display: block;
-	text-align: right;
-	padding: 0 15px;
-	font-size: 14px;
-	color: #999;
-	margin-bottom: 10px;
-}
-.list-box .card-text .word i{
-	color: #333;
+  display: block;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 70px;
+  min-height: 70px;
+  font-size: 14px;
+  padding: 15px;
+  background-color: transparent;
 }
 .list-box .num-box{
-	border-bottom: 1px solid #ddd;
-	padding-left: 15px;
+	padding: 10px 15px;
 }
 .num-box p{
 	overflow: hidden;
-	height: 45px;
 	line-height: 45px;
 	position: relative;
+  padding: 3px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+.num-box p.bd_n{
+  border: none;
+  padding: 0 10px;
+  box-shadow: none;
 }
 .num-box p label{
 	float: left;
-	width: 12%;
+	width: 25%;
 	color: #666;
 	font-size: 15px;
 }
-.num-box p label.wp20{
-	width: 20%;
-}
 .num-box p input{
 	float: right;
-	width: 88%;
+	width: 75%;
 	height: 45px;
-	border-bottom: 1px solid #ddd;
 	font-size: 14px;
+  text-align: right;
+  padding-right: 20px;
 }
 .num-box p input.bd-n{
 	border-bottom: none;
 }
 .num-box .num-tag{
 	float: right;
-	width: 80%;
+	width: 75%;
 	height: 45px;
 	font-size: 0;
 }
 .num-box .num-tag a{
 	display: inline-block;
-	width: 70px;
+  padding: 0 8px;
 	height: 27px;
 	line-height: 25px;
 	border: 1px solid #aaa;
@@ -154,14 +153,31 @@
 	text-align: center;
 }
 .num-box .num-tag a.on{
-	border-color: #333;
-	color: #333;
+	border-color: #ec5951;
+	color: #ec5951;
+}
+.num-box .num-tag em{
+  float: right;
+  font-size: 14px;
+  color: #666;
 }
 .num-box .num{
 	position: absolute;
 	right: 10px;
-	color: #999;
-	font-size: 14px;
+	color: #333;
+	font-size: 15px;
+}
+.bag-num{
+  text-align: center;
+  margin: 20px 0 0;
+}
+.bag-num em{
+  font-size: 20px;
+  font-weight: bold;
+}
+.bag-num span{
+  font-size: 35px;
+  font-weight: bold;
 }
 /*贺卡主题*/
 
@@ -319,7 +335,7 @@
 	position: absolute;
 	top: 130px;
 	left: 50%;
-	width: 200px;
+	width: 220px;
 	margin-left: -100px;
 	text-align: center;
 	color: #666;
