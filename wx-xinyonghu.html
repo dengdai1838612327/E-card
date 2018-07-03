@@ -17,8 +17,7 @@
   <div class="wx-top-bg">
     <img src="images/wx-new.png" class="m30" width="232" height="113">
     <img src="images/wx-new-bag.png" class="wx-new-bag">
-    <a href="###" class="intro">通联钱包介绍</a>
-    <input type="button" value="下载通联钱包使用">
+    <a href="###" class="intro">通联钱包介绍&nbsp;&nbsp;></a>
   </div>
   <ul class="wx-new-form">
     <li>
@@ -26,6 +25,13 @@
       <div class="form-r">
         <input type="text" placeholder="请输入可用的手机号">
         <i class="close"></i>
+      </div>
+    </li>
+    <li>
+      <label>校验码</label>
+      <div class="form-r">
+        <input type="text" placeholder="请输入4位验证码">
+        <img src="images/yzm.png" width="73" height="29">
       </div>
     </li>
     <li>
@@ -37,18 +43,36 @@
       </div>
       <a href="###" class="form-link">无法收到验证码？</a>
     </li>
-    <li>
-      <label>校验码</label>
-      <div class="form-r">
-        <input type="text" placeholder="请输入4位验证码">
-        <img src="images/yzm.png" width="73" height="29">
-      </div>
-    </li>
   </ul>
   <div class="card-btn">
-    <button>领取</button>
+    <!-- <button>确认领取</button> -->
+    <button class="nor" onclick="return mistake();">确认领取</button>
   </div>
   <p class="gray-tips">礼金在<em>2018</em>年<em>9</em>月<em>14</em>日<em>24</em>点前未领取，将自动退回</p>
 </div>
+<div id="bg-gray"></div>
+<div class="mistake-modal">
+  <div class="modal-con">
+    <p>手机号码不正确!</p>
+  </div>
+  <div class="modal-btn">
+    <a href="###" onclick="return modal_close();">确认</a>
+  </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script>
+function mistake(){
+  var bggray = $("#bg-gray");
+  var modal = $(".mistake-modal");
+  bggray.css("width",window.screen.width);
+  bggray.css("height",window.screen.height);
+  bggray.show();
+  modal.show();
+};
+function modal_close(){
+  $(".mistake-modal").hide();
+  $("#bg-gray").hide();
+};
+</script>
 </body>
 </html>

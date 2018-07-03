@@ -708,3 +708,32 @@
 .wx-new-form .form-r img{
   vertical-align: middle;
 }
+.mistake-modal{
+  display: none;
+  position: fixed;
+  width: 80%;
+  left: 10%;
+  top: 40%;
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: 201;
+}
+.mistake-modal .modal-con{
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+.mistake-modal .modal-con p{
+  text-align: center;
+  font-size: 15px;
+  color: #666;
+}
+.mistake-modal .modal-btn{
+  padding: 10px 0;
+}
+.mistake-modal .modal-btn a{
+  display: block;
+  width: 100%;
+  color: #ec5951;
+  font-size: 16px;
+  text-align: center;
+}
