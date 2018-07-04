@@ -737,3 +737,105 @@
   font-size: 16px;
   text-align: center;
 }
+/*礼金余额*/
+.balance-top{
+  position: fixed;
+  top: 45px;
+  width: 100%;
+  height: 70px;
+  background-color: #ec5951;
+  color: #fccc74;
+  padding: 0 25px;
+  overflow: hidden;
+}
+.balance-top label{
+  float: left;
+  font-size: 15px;
+  line-height: 40px;
+}
+.balance-top span{
+  float: right;
+  font-size: 24px;
+  line-height: 40px;
+}
+.balance-top span em{
+  font-size: 15px;
+  margin-left: 10px;
+}
+.balance-sel{
+  position: fixed;
+  width: 80%;
+  height: 45px;
+  line-height: 35px;
+  left: 10%;
+  top: 100px;
+  padding: 5px 0;
+  background-color: #ec5951;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px -3px 5px #e53e36;
+}
+.balance-sel a{
+  float: left;
+  width: 50%;
+  text-align: center;
+  color: #fccc74;
+  font-size: 16px;
+  border-right: 1px solid #fccc74;
+}
+.balance-sel a:last-child{
+  border-right: none;
+}
+.balance-list{
+  margin-top: 100px;
+}
+.balance-list .record-box{
+  overflow: hidden;
+}
+.record-box .record-box-tit{
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+}
+.record-box ul{
+  background-color: #fff;
+}
+.record-box ul li{
+  border-bottom: 1px solid #ddd;
+  padding: 10px 15px;
+  line-height: 25px;
+  overflow: hidden;
+}
+.record-box ul li:last-child{
+  border-bottom: none;
+}
+.record-box ul li .fl{
+  float: left;
+}
+.record-box ul li .fr{
+  float: right;
+  text-align: right;
+}
+.record-box ul li .top{
+  display: block;
+  color: #333;
+  font-size: 15px;
+}
+.record-box ul li .bot{
+  display: block;
+  color: #999;
+  font-size: 14px;
+}
+.record-box ul li .fr .bot{
+  color: #f60;
+}
+.balance-img{
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -92px;
+  margin-left: -69px;
+}
