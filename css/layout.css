@@ -169,7 +169,6 @@
 }
 .bag-num{
   text-align: center;
-  margin: 20px 0 0;
 }
 .bag-num em{
   font-size: 20px;
@@ -183,7 +182,7 @@
 
 .card-tab{
 	position: fixed;
-	top: 45px;
+	top: 66px;
 	width: 100%;
 	height: 45px;
 	background-color: #ec5951;
@@ -317,7 +316,7 @@
 .pay-res{
 	position: absolute;
 	top: 80px;
-	width: 120px;
+	width: 150px;
 	left: 50%;
 	margin-left: -60px;
 }
@@ -741,7 +740,7 @@
 /*礼金余额*/
 .balance-top{
   position: fixed;
-  top: 45px;
+  top: 66px;
   width: 100%;
   height: 70px;
   background-color: #ec5951;
@@ -769,7 +768,7 @@
   height: 45px;
   line-height: 35px;
   left: 10%;
-  top: 100px;
+  top: 121px;
   padding: 5px 0;
   background-color: #ec5951;
   border-radius: 8px;
