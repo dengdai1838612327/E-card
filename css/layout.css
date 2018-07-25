@@ -839,3 +839,22 @@
   margin-top: -92px;
   margin-left: -69px;
 }
+/*系统错误提示*/
+.error-img{
+  display: block;
+  margin: 160px auto 40px;
+}
+/*贺卡说明*/
+.caption{
+  margin: 10px 15px;
+}
+.caption h5{
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.caption p{
+  font-size: 14px;
+  color: #666;
+  line-height: 25px;
+}
