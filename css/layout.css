@@ -543,7 +543,8 @@
   background: url(../images/wx-top-bg.png) 0 0 no-repeat;
   background-size: cover;
   overflow: hidden;
-  min-height: 290px;
+  min-height: 260px;
+  position: relative;
 }
 .wx-top-bg img{
   display: block;
@@ -604,9 +605,6 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.wx-top-bg img.m30{
-  margin: 30px auto;
-}
 .lingqu-info{
   position: relative;
   color: #fc0;
@@ -641,11 +639,11 @@
   text-align: center;
 }
 .wx-top-bg img.wx-new-bag{
-  width: 107px;
+  width: 98px;
   height: 57px;
   position: absolute;
   right: 0;
-  top: 160px;
+  bottom: 10px;
   margin: 0;
 }
 .wx-new-form{
