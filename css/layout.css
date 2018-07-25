@@ -674,10 +674,10 @@
   position: relative;
 }
 .wx-new-form .form-r input{
-  width: 160px;
+  width: 130px;
   height: 40px;
   font-size: 14px;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 .wx-new-form .form-r .close{
   position: absolute;
@@ -693,9 +693,9 @@
   right: 100px;
 }
 .wx-new-form .form-r .yzm-btn{
-  width: 73px;
+  float: right;
+  margin-right: 10px;
   font-size: 14px;
-  text-align: center;
 }
 .wx-new-form .form-link{
   clear: both;
@@ -703,10 +703,11 @@
   display: block;
   color: #854b01;
   font-size: 14px;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 .wx-new-form .form-r img{
-  vertical-align: middle;
+  float: right;
+  margin: 5px 10px 5px 0;
 }
 .mistake-modal{
   display: none;
