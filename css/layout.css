@@ -35,6 +35,14 @@
 .more-box a:last-child{
 	border-bottom: none;
 }
+.bg-trans{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: transparent;
+  z-index: 9;
+}
 .list-box{
 	margin-bottom: 10px;
 	overflow: hidden;

@@ -77,6 +77,7 @@
   </div>
   <p class="gray-tips">第二日的24时前未被领取，贺卡礼金被退回</p>
 </div>
+<div class="bg-trans" onclick="return more_clear();"></div>
 <div class="more-box">
   <a href="###">贺卡明细</a>
   <a href="###">礼金余额</a>
@@ -90,7 +91,14 @@ var swiper = new Swiper('.swiper-container', {
   spaceBetween: 5
 });
 function a_more(){
+  $(".bg-trans").css("width",window.screen.width);
+  $(".bg-trans").css("height",window.screen.height);
+  $(".bg-trans").show();
   $(".more-box").show();
+};
+function more_clear(){
+  $(".bg-trans").hide();
+  $(".more-box").hide();
 };
 </script>
 </body>
