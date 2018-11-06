@@ -3,7 +3,7 @@
 .more-box{
   display: none;
   position: fixed;
-  top: 40px;
+  top: 61px;
   right: 5px;
   background: rgba(0,0,0,.8);
   border-radius: 5px;
@@ -563,6 +563,13 @@
   text-align: center;
   color: #fff;
   font-size: 14px;
+}
+.wx-top-bg a.bag-link{
+  position: absolute;
+  width: 100%;
+  bottom: 40px;
+  font-weight: 100;
+  font-size: 13px;
 }
 .wx-top-bg input{
   background: url(../images/wx-btn.png) 0 0 no-repeat;
