@@ -442,6 +442,7 @@
 }
 .detail-list li .fl{
   float: left;
+  width: 50%;
 }
 .detail-list li .fr{
   float: right;
@@ -460,6 +461,8 @@
   display: block;
   font-size: 14px;
   color: #999;
+  height: 25px;
+  overflow: hidden;
 }
 .detail-modal{
   display: none;
@@ -480,8 +483,18 @@
   left: 0;
   width: 100%;
   height: 45px;
-  background-color: #ec5951;
   border-radius: 5px 5px 0 0;
+  background-color: #ec5951;
+}
+.detail-modal .modal-bg i{
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  line-height: 45px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  z-index: 202;
 }
 .detail-modal .close{
   position: absolute;
@@ -495,12 +508,11 @@
 }
 .detail-m-tit{
   position: absolute;
-  top: -15px;
-  width: 100%;
-  text-align: center;
-  font-size: 20px;
-  color: #fff;
-  z-index: 202;
+  top: -25px;
+  width: 166px;
+  height: 70px;
+  background: url(../images/detail-m-top-b.png) left bottom no-repeat/166px 70px;
+  z-index: 201;
 }
 .detail-modal .detail-box{
   margin: 70px 0 30px;
@@ -543,7 +555,9 @@
   display: block;
   font-size: 14px;
 }
-.group-list li .fr span.bot{
+.group-list li span.bot{
+  display: block;
+  font-size: 14px;
   color: #999;
 }
 /*微信端*/
@@ -590,13 +604,11 @@
 }
 .wx-card{
   width: 90%;
-  margin: 0 auto;
   background-color: #ddd;
   border-radius: 5px;
   padding: 5px;
-  position: relative;
-  top: -65px;
-  z-index: -2;
+  position: absolute;
+  left: 5%;
   overflow: hidden;
 }
 .wx-card img{
@@ -870,4 +882,150 @@
   font-size: 14px;
   color: #666;
   line-height: 25px;
+}
+
+
+
+/*"礼到"优化*/
+.check{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 0;
+}
+.check .circle{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background: url(../images/circle.png) 0 0 no-repeat/15px 15px;
+}
+.check .circle.click{
+  background: url(../images/circle-clicke.png) 0 0 no-repeat/15px 15px;
+}
+.check span{
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: middle;
+}
+.check span a{
+  color: #ec5951;
+}
+.detail-list li .bot em{
+  color: #333;
+  margin-left: 10px;
+}
+.detail-list li .bot a{
+  display: block;
+  width: 70px;
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid #ec5951;
+  border-radius: 5px;
+  color: #ec5951;
+  text-align: center;
+}
+.wx-top-bg-1{
+  background: url(../images/wx-top-bg-1.png) 0 0 no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  min-height: 200px;
+  position: relative;
+}
+.wx-top-bg-1 img {
+  display: block;
+  margin: 35px auto;
+}
+.info-box-1{
+  margin-bottom: 20px;
+}
+.info-box-1.mt175{
+  margin-top: 175px;
+}
+.info-box-1.mt90{
+  margin-top: 90px;
+}
+.info-box-1 .num{
+  display: block;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.info-box-1 .num em{
+  font-size: 16px;
+  margin-left: 10px;
+}
+.info-box-1 p{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.info-box-1 .wx-link{
+  text-decoration: underline;
+  color: #ec5951;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+.get-list{
+  background-color: #fff;
+}
+.get-list .list-tit{
+  border-bottom: 1px solid #ddd;
+  padding: 0 15px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+}
+.get-list .list-tit em{
+  color: #999;
+}
+.get-list ul{
+  padding-left: 15px;
+}
+.get-list ul li{
+  border-bottom: 1px solid #ddd;
+  padding: 15px 15px 15px 5px;
+  overflow: hidden;
+}
+.get-list ul li:last-child{
+  border-bottom: none;
+}
+.get-list ul li .fl{
+  float: left;
+  overflow: hidden;
+}
+.get-list ul li .fr{
+  float: right;
+  text-align: right;
+}
+.get-list .fl img{
+  float: left;
+  margin-right: 10px;
+}
+.get-list .fl span{
+  float: left;
+  height: 40px;
+  line-height: 20px;
+}
+.get-list .fl span em{
+  display: block;
+  font-size: 15px;
+}
+.get-list .fl span em.time{
+  color: #999;
+  font-kerning: 14px;
+}
+.get-list .fr{
+  font-size: 15px;
+  height: 40px;
+  line-height: 20px;
+}
+.wx-card.top190{
+  top: 190px;
+}
+.wx-card.top100{
+  top: 100px;
 }
