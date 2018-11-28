@@ -190,7 +190,7 @@
 
 .card-tab{
 	position: fixed;
-	top: 66px;
+	top: 0;
 	width: 100%;
 	height: 45px;
 	background-color: #ec5951;
@@ -1024,8 +1024,8 @@
   line-height: 20px;
 }
 .wx-card.top190{
-  top: 190px;
+  top: 124px;
 }
 .wx-card.top100{
-  top: 100px;
+  top: 34px;
 }
