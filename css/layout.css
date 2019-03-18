@@ -511,7 +511,8 @@
   top: -25px;
   width: 166px;
   height: 70px;
-  background: url(../images/detail-m-top-b.png) left bottom no-repeat/166px 70px;
+  background: url(../images/detail-m-top-b.png) left bottom no-repeat;
+  background-size: 166px 70px;
   z-index: 201;
 }
 .detail-modal .detail-box{
@@ -623,14 +624,15 @@
   width: 100%;
   height: 45px;
   line-height: 45px;
-  padding: 0 15px;
+  padding: 0 10px;
   color: #fff;
-  font-size: 15px;
+  font-size: 13px;
   background-color: rgba(0,0,0,.5);
   overflow: hidden;
   overflow-wrap: normal;
   white-space: nowrap;
   text-overflow: ellipsis;
+  text-align: center;
 }
 .lingqu-info{
   position: relative;
@@ -765,7 +767,7 @@
 /*礼金余额*/
 .balance-top{
   position: fixed;
-  top: 66px;
+  top: 45px;
   width: 100%;
   height: 70px;
   background-color: #ec5951;
@@ -793,7 +795,7 @@
   height: 45px;
   line-height: 35px;
   left: 10%;
-  top: 121px;
+  top: 100px;
   padding: 5px 0;
   background-color: #ec5951;
   border-radius: 8px;
@@ -924,6 +926,8 @@
   border-radius: 5px;
   color: #ec5951;
   text-align: center;
+  position: relative;
+  z-index: 10;
 }
 .wx-top-bg-1{
   background: url(../images/wx-top-bg-1.png) 0 0 no-repeat;
@@ -1028,4 +1032,32 @@
 }
 .wx-card.top100{
   top: 34px;
+}
+/*微信分享遮罩层*/
+.share-modal{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 201;
+}
+.share-modal .share-icon{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  background: url(../images/share.png) 0 0 no-repeat;
+  background-size: 97px 89px;
+  width: 97px;
+  height: 89px;
+}
+.share-modal img{
+  display: block;
+  margin: 110px auto 20px;
+}
+.share-modal .share-text{
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
 }

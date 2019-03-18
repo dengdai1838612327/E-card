@@ -27,9 +27,27 @@
     <div class="imgbg"> <img src="images/card-img.png"></div>
   </div>
   <div class="card-btn">
-    <button>点击赠送</button>
+    <button onclick="return share();">点击赠送</button>
   </div>
   <p class="gray-tips">温馨提示：可在[贺卡]-[贺卡明细]中查询进度详情</p>
 </div>
+<div id="bg-gray"></div>
+<div class="share-modal">
+  <i class="share-icon"></i>
+  <img src="images/gift.png" width="80" height="52">
+  <p class="share-text">礼物准备好了</p>
+  <p class="share-text">马上送给TA吧！</p>
+</div>
+<script src="js/jquery.min.js"></script>
+<script>
+function share(){
+  var bggray = $("#bg-gray");
+  var modal = $(".share-modal");
+  bggray.css("width",window.screen.width);
+  bggray.css("height",window.screen.height);
+  bggray.show();
+  modal.show();
+}
+</script>
 </body>
 </html>
